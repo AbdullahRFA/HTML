@@ -1,0 +1,86 @@
+/* General styles */
+body {
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f0f0f0; /* Light gray background color */
+}
+
+#header img {
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+#header p {
+    margin-top: 10px;
+}
+
+#header a {
+    margin-right: 10px;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+/* Summary section */
+#summary {
+    margin-bottom: 30px;
+    background-color: #f9f9f9; /* Lighter gray background color */
+}
+
+/* Employment history section */
+#emp ol {
+    padding-left: 20px;
+    background-color: #f0f0f0; /* Light gray background color */
+}
+
+#emp li {
+    margin-bottom: 20px;
+}
+
+/* Education section */
+#edu ul {
+    padding-left: 20px;
+    background-color: #f9f9f9; /* Lighter gray background color */
+}
+
+/* Skill section */
+#skill table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+#skill th,
+#skill td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* Contact section */
+#contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+#contact textarea {
+    width: 100%;
+}
+
+/* Footer section */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f0f0f0; /* Light gray background color */
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+        border:1px solid black 
+    }
+    th,td{
+        text-align: center;
+    }
+    th,td{
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        
+    }
+    table{
+        border-radius: 5px; 
+    }
+    tr:nth-child(even) {
+  background-color: #a9eded;
+  td:nth-child(even){
+    background-color: rgb(216, 184, 246);
+  }
+}
+    </style>
+</head>
+<body>
+    <table style="width: 100%;">
+        <caption><strong>Student Information</strong> </caption>
+        <colgroup>
+            <col span="2" style="background-color: yellow;">
+            <col span="2" style="background-color: rgb(42, 219, 122);">
+        </colgroup>
+        <tr>
+            <th>Name</th>
+            <th style="width: 30%;">ID</th>
+            <th>Department</th>
+            <th>CGPA</th>
+        </tr>
+        <tr>
+            <td><center>Abdullah</center></td>
+            <td><center>383</center></td>
+            <td><center>CSE</center></td>
+            <td><center>3.70</center></td>
+        </tr>
+        <tr>
+            <td><center>khaled</center></td>
+            <td><center>391</center></td>
+            <td><center>CSE</center></td>
+            <td><center>2.91</center></td>
+        </tr>
+        <tr>
+            <td><center>shanto</center></td>
+            <td><center>379</center></td>
+            <td><center>CSE</center></td>
+            <td><center>3.75</center></td>
+        </tr>
+    </table>
+</body>
+</html>
