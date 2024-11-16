@@ -1,0 +1,45 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, orange, purple);
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 200px;
+   padding: 20px;
+   border-radius: 20px;
+   color: white;
+    background-color: rgba(0,0,0,0.4);
+    transition: transform 0.5s;
+}
+.contact:hover{
+    transform: scale(1.1);
+}
+button{
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 10px;
+   font-size: 16px;
+   transition: transform 0.5s, background-color 0.5s;
+   color: blue;
+}
+button:hover{
+    background-color: aqua;
+    transform: scale(1.05);
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+    font-size: 20px;
+}
+a:hover{
+    color:rgb(226, 68, 20)
+}

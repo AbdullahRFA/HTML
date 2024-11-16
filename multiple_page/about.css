@@ -1,0 +1,68 @@
+body{
+    background:linear-gradient(to right, magenta,blue);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info{
+    background-color: rgb(62, 57, 57);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+.info:hover{
+    transform: scale(1.1);
+    background-color: rgb(86, 112, 112);
+}
+#name{
+    transition: color 0.5s;
+}
+#std{
+    transition: color 0.5s;
+}
+#cse{
+    transition: color 0.5s;
+}
+#ju{
+    transition: color 0.5s;
+}
+#name:hover{
+    color: aqua;
+}
+#std:hover{
+    color: blueviolet;
+}
+#cse:hover{
+    color: orange;
+}
+#ju:hover{
+    color: rgb(43, 226, 125);
+}
+button{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ff4400;
+    transition: transform 0.5s,background-color 0.5s,color 0.5s;
+}
+button:hover{
+    background-color: #9bd219;
+    transform: scale(1.1);
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+}
+a:hover{
+    color:#0f100e;
+}
